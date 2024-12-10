@@ -1,4 +1,4 @@
-package com.quash.bugger_test.ui
+package com.taskflow.app.ui
 
 import android.content.ContentValues.TAG
 import android.content.Intent
@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
-import com.quash.bugger_test.R
-import com.quash.bugger_test.data.RetrofitClient
+import com.taskflow.app.R
+import com.taskflow.app.data.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace 'com.quash.bugger'
+    namespace "com.taskflow.app"
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.quash.bugger.test"
+        applicationId "com.taskflow.app"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 

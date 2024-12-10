@@ -1,4 +1,4 @@
-package com.quash.bugger_test.data
+package com.taskflow.app.data
 
 import retrofit2.Call
 import retrofit2.http.GET

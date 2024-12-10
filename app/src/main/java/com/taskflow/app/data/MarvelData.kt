@@ -1,4 +1,4 @@
-package com.quash.bugger_test.data
+package com.taskflow.app.data
 
 data class MarvelEntity(
     val name: String,
