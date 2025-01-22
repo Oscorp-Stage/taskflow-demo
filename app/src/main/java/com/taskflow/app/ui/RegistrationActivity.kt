@@ -23,17 +23,17 @@ class RegistrationActivity : AppCompatActivity() {
             val name = binding.etName.text.toString()
             
             if (email.isEmpty() || password.isEmpty() || name.isEmpty()) {
-                Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please fill mandatory fields", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             
             if (DummyUsers.isEmailTaken(email)) {
-                Toast.makeText(this, "Email already registered", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Email is already registered", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             
             DummyUsers.addUser(User(email, password, name))
-            Toast.makeText(this, "Registration successful!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Registration successful!!", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
